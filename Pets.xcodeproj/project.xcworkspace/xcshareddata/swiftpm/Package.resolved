@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "divkit-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/divkit/divkit-ios",
+      "state" : {
+        "revision" : "6ca6ce250f53ac7c76759fa3eac04b44d7fb551f",
+        "version" : "9.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
