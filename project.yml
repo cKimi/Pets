@@ -1,0 +1,21 @@
+name: Pets
+packages:
+    DivKit:
+        url: https://github.com/divkit/divkit-ios.git
+        from: "9.0.0"
+targets:
+    PetsApp:
+        type: application
+        platform: iOS
+        deploymentTarget: "13.0"
+        sources: [Pets]
+        settings:
+            base:
+                INFOPLIST_FILE: Pets/Info.plist
+                ENTITLEMENTS_FILE: Pets/App.entitlements
+                PRODUCT_BUNDLE_IDENTIFIER: com.carloskimura.Pets
+        dependencies:
+            - package: DivKit
+#        scheme:
+#            testTargets:
+#                - PetsTests
